@@ -85,7 +85,7 @@ namespace DIO.bank
 
         private static void InserirConta()
         {
-            Console.WriteLine("Opção 1 - Inserir nova conta selecionada.");
+            Console.WriteLine("Opção 2 - Inserir nova conta selecionada.");
             Console.WriteLine("Escolha o tipo de conta:\n1 - Conta Pessoa Física\n2 - Pessoa Jurídica\n");
             int entradaTipoConta = int.Parse(Console.ReadLine());
 
@@ -109,7 +109,7 @@ namespace DIO.bank
 
         private static void ListarContas()
         {
-            Console.WriteLine("Opção 2 - Listar contas selecionada.");
+            Console.WriteLine("Opção 1 - Listar contas selecionada.");
 
             if(listContas.Count == 0)
             {
